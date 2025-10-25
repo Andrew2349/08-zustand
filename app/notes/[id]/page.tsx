@@ -15,7 +15,7 @@ export async function generateMetadata({params}:NoteDetailsProps): Promise<Metad
     title: `NoteHub - ${note.title}`,
     description: `${note.content.slice(0, 120)}`,
     openGraph: {
-      title:`NoteHun - ${note.title}`,
+      title:`NoteHub - ${note.title}`,
       description: `${note.content.slice(0, 120)}`,
       url: `http://localhost:3000/notes/${id}`,
       images: [
